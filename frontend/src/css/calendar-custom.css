@@ -1,0 +1,49 @@
+.react-calendar {
+    background: transparent !important;
+    border: none !important;
+    color: white !important;
+    width: 100% !important;
+}
+
+.react-calendar__navigation button {
+    color: white !important;
+    font-size: 1.5rem !important;
+    font-weight: 900 !important;
+}
+
+.react-calendar__month-view__weekdays {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 0.8rem;
+    color: #475569 !important;
+    padding-bottom: 1rem;
+}
+
+.react-calendar__tile {
+    padding: 2.5rem 1rem !important; /* Más alto para diseño moderno */
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.react-calendar__tile--now {
+    background: #1e293b !important;
+    border-radius: 1rem;
+}
+
+.react-calendar__tile--active {
+    background: #3f3d3d !important;
+    border-radius: 1rem !important;
+}
+
+.react-calendar__tile:enabled:hover {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border-radius: 1rem;
+}
+
+/* El recuadro de color dinámico */
+.has-event-custom {
+    font-weight: 900 !important;
+    color: white !important;
+}
