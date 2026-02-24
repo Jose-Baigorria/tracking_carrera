@@ -1,0 +1,23 @@
+Para el backend:
+
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+¡Listo! Ahora tienes un servidor real corriendo en http://127.0.0.1:8000. Si entras a http://127.0.0.1:8000/docs, verás la documentación interactiva (Swagger) de tu propia API.
+
+
+
+Para el frontend:
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install tailwindcss-animate
+npm install -D @tailwindcss/postcss
+npm install react-router-dom
+
+npm install class-variance-authority lucide-react clsx tailwind-merge @radix-ui/react-slot @radix-ui/react-dialog @radix-ui/react-select @radix-ui/react-switch @radix-ui/react-tabs @radix-ui/react-label @radix-ui/react-separator @radix-ui/react-progress @radix-ui/react-popover @radix-ui/react-tooltip @radix-ui/react-scroll-area @radix-ui/react-menubar @radix-ui/react-context-menu @radix-ui/react-dropdown-menu @radix-ui/react-radio-group @radix-ui/react-aspect-ratio @radix-ui/react-accordion @radix-ui/react-checkbox @radix-ui/react-slider @radix-ui/react-avatar @radix-ui/react-alert-dialog @radix-ui/react-collapsible @radix-ui/react-navigation-menu embla-carousel-react vaul sonner cmdk tailwindcss-animate
+npm install react-calendar date-fns
+npm install date-fns react-avatar @radix-ui/react-avatar
+
+npm install
+npm run dev
